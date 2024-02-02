@@ -1,0 +1,96 @@
+.SupplierTable{
+    height: 600px;
+    padding: 10px;
+
+    .datatableTitle {
+        width: 100%;
+        font-size: 30px;
+        color: gray;
+        font-weight: bold;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        .updateButton {
+            padding: 5px 8px;
+            border-radius: 8px;
+            color: #601e9a;
+            border: 2px solid #601e9a;
+            cursor: pointer;
+
+            &:hover {
+                background-color: #601e9a;
+                color: rgb(255, 252, 253);
+                transition-duration: 0.3s;
+                
+            }
+        }
+
+        .deleteButton {
+            padding: 5px 5px;
+            border-radius: 8px;
+            color: rgb(255, 0, 0);
+            border: 2px solid rgba(237, 21, 21, 0.6);
+            background-color: rgb(255, 251, 251);
+            cursor: pointer;
+
+            &:hover {
+                background-color: red;
+                color: rgb(255, 252, 253);
+                transition-duration: 0.3s;
+                
+            }
+        }
+    }
+}
+
+.search {
+    display: flex;
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 1060px;
+    border: solid 2px #601e9a;
+    border-radius: 10px;   
+    transition: border-color 0.3s ease-in-out;
+    
+    &:focus {
+      outline: none;
+      border-color:  #601e9a;
+    }
+
+}
+.SearchIcon{
+   display: flex;
+   margin-bottom:-35px;
+   margin-left: 1030px;
+   color: #601e9a;
+    
+    }
+    
+.export {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #601e9a;
+    font-size: 16px;
+    font-weight: 400;
+    border: 2px solid #601e9a;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #601e9a;
+        color: #ffffff;
+        transition-duration: 0.2s;
+    }
+}
