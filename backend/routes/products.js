@@ -32,7 +32,8 @@ router.route("/").get((req,res)=>{
     }).catch((err)=>{
         console.log(err);
     })
-})-
+})
+
 //GET single row
 router.get("/:id",async(req,res)=>{   
 
@@ -42,7 +43,7 @@ router.get("/:id",async(req,res)=>{
     } catch (err) {
         res.status(500).json(err)
         }
-    });
+    })
 
 
 //Update
