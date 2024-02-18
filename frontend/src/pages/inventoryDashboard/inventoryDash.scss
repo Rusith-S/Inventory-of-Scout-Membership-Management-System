@@ -1,0 +1,14 @@
+.inventory{
+    background-color:white;
+    display: flex;
+
+    .homeContainer{
+        flex: 6;
+
+        h1{
+            color: rgb(121, 33, 216);
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+}
