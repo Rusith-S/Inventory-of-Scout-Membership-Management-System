@@ -21,6 +21,5 @@ const ProductSchema = new mongoose.Schema({
         required : true
     }
     
-
 });
 export default mongoose.model("Product",ProductSchema)
