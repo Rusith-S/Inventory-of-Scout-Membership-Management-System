@@ -24,4 +24,5 @@ const ProductSchema = new mongoose.Schema({
 
 
 
+
 export default mongoose.model("Product",ProductSchema)
